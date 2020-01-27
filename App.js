@@ -14,9 +14,10 @@ export default class App extends Component {
   // This is the access_token for our demo instagram account
   // To generate your own, each user needs to authorize your app to
   // access their account.
-  access_token = "6626870867.cbba754.83fa37c865314df8be5c52347e3e4987";
+  //access_token = "6626870867.cbba754.83fa37c865314df8be5c52347e3e4987";
+  access_token = "18973642.1677ed0.4afd9743af5545219d07f80c56ea9c71";
   // access_token2 = '638509013.cbba754.fd61c28f8fd44c3787620c4f35376325'
-  user_id = "6626870867";
+  user_id = "18973642";
 
   state = {
     loaded: false,

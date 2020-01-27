@@ -56,11 +56,13 @@ export default class App extends Component {
         <Image style={styles.image} source={{ uri: imageUri }} />
         <View style={styles.info}>
           <Text style={styles.infoText}>{username}</Text>
-          <Text style={styles.infoText}>
+          {/*<Text style={styles.infoText}>
             {numLikes + (numLikes !== 1 ? " likes" : " like")}
           </Text>
         </View>
-        <View>{this.state.comments[index]}</View>
+    <View>{this.state.comments[index]}</View>*/}
+      
+      </View>
       </View>
     );
   }
